@@ -1,3 +1,13 @@
 # empty throws error
 
-key: val
+# parameters required for VGG16 (used) model, so that we can change here to reflect everywhere,
+# this is part for model training
+
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+BATCH_SIZE: 16
+INCLUDE_TOP: False
+EPOCHS: 1
+CLASSES: 2  # number of types of images
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
