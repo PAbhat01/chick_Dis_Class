@@ -121,7 +121,7 @@ open up you local host and port
 
 # 7. Setup github secrets:
 
-    AWS_ACCESS_KEY_ID=
+    AWS_ACCESS_KEY_ID= stored in text file
 
     AWS_SECRET_ACCESS_KEY=
 
